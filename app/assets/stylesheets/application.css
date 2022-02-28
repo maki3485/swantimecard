@@ -1,0 +1,126 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+div {
+    text-align: center;
+    padding-top: 20px
+}
+
+.year_month{
+    font-size: 48px;
+}
+
+
+.time  {
+    font-size:120px;
+    padding-top: 3%;
+}
+
+.flash {
+    padding: 14px 0;
+    color: rgb(0, 0, 0);
+    background: rgb(148, 252, 174);
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.header-menus {
+    float: right;
+    padding-right: 20px;
+}
+
+
+.header-menus li {
+    float: left;
+    line-height: 64px;
+    font-size: 20px;
+    color: white;
+    padding-left: 24px;
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+.main{
+    font-size: 38px;
+    padding-top: 50px;
+}
+
+input{
+    text-align: center;
+}
+
+.title{
+    font-size: 72px;
+}
+
+.log{
+    padding-top: 100px;
+}
+
+.post-name{
+    padding-top: 0;
+}
+
+.users-heading{
+    padding-top: 70px;
+}
+
+.contain{
+    border: solid 2px black;
+    /* border-left: none;
+    border-right: none; */
+    font-size: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    width:700px;
+}
+
+.userList{
+    text-decoration: none;
+    display: block;
+    color:teal;
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 32px;
+}
+
+.delete{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+
+.user{
+    font-size: 48px;
+}
+
+.user-show{
+    font-size: 0px;
+    
+}
+.UserName{
+    text-decoration: none;
+    display: block;
+    color:teal;
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 48px;
+}
